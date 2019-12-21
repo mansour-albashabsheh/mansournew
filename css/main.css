@@ -1,0 +1,9 @@
+﻿@import url('./main-ar.css');
+
+body{
+    font-family:'GESSTwoMedium-Medium' !important;
+}
+html, body {
+    direction: ltr;
+}
+.float-right{float: left !important;}

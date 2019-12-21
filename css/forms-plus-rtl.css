@@ -1,0 +1,293 @@
+/*! Forms Plus: JS.1.5.1 - 2018-01-05 */
+.flat-ao-form-rtl .input-group .form-control,
+.flat-ao-form-rtl .input-group-addon,
+.flat-ao-form-rtl .input-group-btn > .btn,
+.flat-ao-form-rtl .input-group-btn > .btn-group > .btn,
+.flat-ao-form-rtl .input-group-btn > .dropdown-toggle {
+  border-radius: 0;
+}
+.flat-ao-form-rtl .radio label,
+.flat-ao-form-rtl .checkbox label,
+.flat-ao-form-rtl .p-switch label,
+.flat-ao-form-rtl .p-radioswitch label {
+  padding-right: 0;
+}
+.flat-ao-form-rtl .p-check-active-icon,
+.flat-ao-form-rtl .p-check-icon,
+.flat-ao-form-rtl .p-switch-icon {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.flat-ao-form-rtl .p-check-big-icons .p-check-icon {
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.flat-ao-form-rtl .p-switch-icon:before {
+  left: 2px;
+}
+.flat-ao-form-rtl .p-switch-icon:after {
+  left: 27px;
+}
+.flat-ao-form-rtl .p-check-next:checked + .p-check-container .p-switch-icon:before,
+.flat-ao-form-rtl :checked ~ .p-switch-icon:before {
+  left: 21px;
+}
+.flat-ao-form-rtl .p-check-next:checked + .p-check-container .p-switch-icon:after,
+.flat-ao-form-rtl :checked ~ .p-switch-icon:after {
+  left: 3px;
+}
+.flat-ao-form-rtl .pt-form-inline .p-radioswitch,
+.flat-ao-form-rtl .pt-form-inline .p-switch,
+.flat-ao-form-rtl .pt-form-inline .radio,
+.flat-ao-form-rtl .pt-form-inline .checkbox {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.flat-ao-form-rtl .pt-form-inline .p-radioswitch:first-child,
+.flat-ao-form-rtl .pt-form-inline .p-switch:first-child,
+.flat-ao-form-rtl .pt-form-inline .radio:first-child,
+.flat-ao-form-rtl .pt-form-inline .checkbox:first-child {
+  margin-right: 0;
+}
+.flat-ao-form-rtl .p-picture-pick .p-check-icon {
+  left: auto;
+  right: 0;
+}
+.flat-ao-form-rtl .p-show-block-heading > .pull-left .p-check-icon,
+.flat-ao-form-rtl .p-show-block-heading > .pull-left .p-check-active-icon {
+  margin-right: 5px;
+  margin-left: 0;
+}
+.flat-ao-form-rtl .p-radio-color,
+.flat-ao-form-rtl .p-form-colorpick .p-radio-color {
+  float: right;
+}
+.flat-ao-form-rtl {
+  text-align: right;
+}
+.flat-ao-form-rtl .p-social-bar .p-social-btn,
+.flat-ao-form-rtl .p-total-block .p-price-column {
+  float: right;
+}
+.flat-ao-form-rtl .p-has-icon .form-control,
+.flat-ao-form-rtl .p-has-icon .p-slider-field,
+.flat-ao-form-rtl .p-has-icon .sp-replacer {
+  padding-left: 12px;
+  padding-right: 44px;
+}
+.flat-ao-form-rtl .p-has-icon .input-group-icon {
+  left: auto;
+  right: 0;
+}
+.flat-ao-form-rtl .p-has-icon:hover .form-control,
+.flat-ao-form-rtl .p-has-icon .form-control:focus,
+.flat-ao-form-rtl .p-has-icon:hover .p-slider-field,
+.flat-ao-form-rtl .p-has-icon:hover .sp-replacer {
+  padding-left: 12px;
+  padding-right: 56px;
+}
+.flat-ao-form-rtl .p-custom-arrow .p-select-arrow {
+  right: auto;
+  left: 0;
+}
+.flat-ao-form-rtl .p-custom-arrow select {
+  padding-right: 12px;
+  padding-left: 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .flat-ao-form-rtl .p-custom-arrow select {
+    padding-left: 44px;
+  }
+}
+.flat-ao-form-rtl .p-file-wrap [type="file"]:hover ~ .p-has-icon .form-control {
+  padding-left: 12px;
+  padding-right: 56px;
+}
+.flat-ao-form-rtl .form-inline > label + .p-rating,
+.flat-ao-form-rtl .form-inline .form-group > label + .p-rating {
+  margin-left: 0;
+  margin-right: 8px;
+}
+.flat-ao-form-rtl .sp-palette .sp-thumb-el,
+.flat-ao-form-rtl .sp-initial {
+  float: right;
+}
+.flat-ao-form-rtl .sp-palette-button-container,
+.flat-ao-form-rtl .sp-button-container {
+  float: left;
+}
+.flat-ao-form-rtl .sp-cancel {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.flat-ao-form-rtl .sp-hue,
+.flat-ao-form-rtl .sp-clear-enabled .sp-clear {
+  left: 0;
+  right: 84%;
+}
+.flat-ao-form-rtl .sp-color {
+  right: 0;
+  left: 20%;
+}
+.flat-ao-form-rtl .bootstrap-datetimepicker-widget table thead .prev {
+  text-align: right;
+}
+.flat-ao-form-rtl .bootstrap-datetimepicker-widget table thead .next {
+  text-align: left;
+}
+.flat-ao-form-rtl .bootstrap-datetimepicker-widget table .today div:before {
+  border-left-width: 0;
+  border-right-width: 7px;
+  left: 2px;
+  right: auto;
+}
+.flat-ao-form-rtl .bootstrap-datetimepicker-widget table .dow:first-child,
+.flat-ao-form-rtl .bootstrap-datetimepicker-widget table td:first-child {
+  padding-right: 25px;
+  padding-left: 0;
+}
+.flat-ao-form-rtl .bootstrap-datetimepicker-widget table .dow:last-child,
+.flat-ao-form-rtl .bootstrap-datetimepicker-widget table td:last-child {
+  padding-right: 0;
+  padding-left: 25px;
+}
+.flat-ao-form-rtl .p-field-bottom-block,
+.flat-ao-form-rtl .p-field-top-block,
+.flat-ao-form-rtl .p-field-at-bottom-block,
+.flat-ao-form-rtl .p-field-at-top-block {
+  right: auto;
+  left: 0;
+}
+.flat-ao-form-rtl .input-group .realperson-challenge .realperson-text {
+  padding-left: 0;
+  padding-right: 12px;
+}
+.flat-ao-form-rtl .input-group .realperson-challenge .realperson-regen {
+  left: auto;
+  right: 8px;
+}
+.flat-ao-form-rtl .p-slider-field.p-slider-vertical .p-slider-wrap {
+  right: auto;
+  left: 8px;
+}
+.flat-ao-form-rtl .p-show-js-block .p-slider-field .p-slider-wrap {
+  margin-right: 0;
+  margin-left: -12px;
+}
+.flat-ao-form-rtl .p-show-js-block .p-slider-field.p-slider-vertical .p-slider-wrap {
+  margin-left: 0;
+}
+.flat-ao-form-rtl .p-table .p-min-cell:first-child {
+  padding-left: 4px;
+  padding-right: 0;
+}
+.flat-ao-form-rtl .p-table .p-min-cell:last-child {
+  padding-right: 4px;
+  padding-left: 0;
+}
+.flat-ao-form-rtl .pt-form-cross-panel {
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+.flat-ao-form-rtl .pt-form-cross-panel .radio,
+.flat-ao-form-rtl .pt-form-cross-panel .checkbox,
+.flat-ao-form-rtl .pt-form-cross-panel .p-radioswitch,
+.flat-ao-form-rtl .pt-form-cross-panel .p-switch,
+.flat-ao-form-rtl .pt-form-cross-panel.p-form-sg {
+  margin-left: 0;
+}
+.flat-ao-form-rtl .pt-form-cross-panel .radio,
+.flat-ao-form-rtl .pt-form-cross-panel .checkbox {
+  margin-right: -7px;
+}
+.flat-ao-form-rtl .pt-form-cross-panel .p-radioswitch,
+.flat-ao-form-rtl .pt-form-cross-panel .p-switch {
+  margin-right: -24px;
+}
+.flat-ao-form-rtl .pt-form-cross-panel.p-form-sg {
+  margin-right: 24px;
+}
+.flat-ao-form-rtl .p-hide-form {
+  right: auto;
+  left: 5px;
+}
+.flat-ao-form-rtl .p-rating label {
+  float: left;
+}
+.flat-ao-form-rtl .p-value-label {
+  margin-right: 0;
+  margin-left: 5px;
+  display: inline-block;
+}
+.flat-ao-form-rtl label.p-label-required:after {
+  margin-left: 0;
+  margin-right: 3px;
+}
+.flat-ao-form-rtl .input-group-state .p-position {
+  left: auto;
+  right: -5px;
+}
+.flat-ao-form-rtl .input-group-state .p-text {
+  right: auto;
+  left: 0;
+}
+.flat-ao-form-rtl .p-custom-arrow .input-group-state .p-position {
+  left: auto;
+  right: -48px;
+}
+.flat-ao-form-rtl .p-form-steps > li:first-child .p-step {
+  margin-left: 15px;
+  margin-right: 0;
+}
+.flat-ao-form-rtl .p-form-steps > li:last-child .p-step {
+  margin-right: 15px;
+  margin-left: 0;
+}
+.flat-ao-form-rtl .p-form-steps > li.active .p-step:before {
+  right: auto;
+  left: 100%;
+}
+@media (min-width: 768px) {
+  .flat-ao-form-rtl .p-form-steps > li:first-child .p-step {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .flat-ao-form-rtl .p-form-steps > li:last-child .p-step {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+}
+.flat-ao-form-rtl .p-inset .p-form-steps-wrap .p-form-steps,
+.flat-ao-form-rtl .p-shadowed .p-form-steps-wrap .p-form-steps,
+.flat-ao-form-rtl .p-bordered .p-form-steps-wrap .p-form-steps {
+  padding-right: 20px;
+  padding-left: 0;
+}
+.flat-ao-form-rtl .p-inset .p-form-steps-wrap,
+.flat-ao-form-rtl .p-shadowed .p-form-steps-wrap {
+  margin-left: 0;
+  margin-right: -20px;
+}
+.flat-ao-form-rtl .p-bordered .p-form-steps-wrap {
+  margin-left: 0;
+  margin-right: -21px;
+}
+.flat-ao-form-rtl .p-tabs-offset > .nav-tabs,
+.flat-ao-form-rtl .p-steps-offset > .p-form-steps-wrap:first-child {
+  left: auto;
+  right: 0;
+}
+.flat-ao-form-rtl .p-steps-offset > .p-form-steps-wrap:first-child .p-form-steps {
+  padding-right: 20px;
+  padding-left: 0;
+}
+.flat-ao-form-rtl .p-steps-offset.p-shadowed > .p-form-steps-wrap:first-child {
+  padding-left: 20px;
+  padding-right: 0;
+}
+.flat-ao-form-rtl .p-steps-offset.p-bordered .p-form-steps-wrap {
+  margin-left: 0;
+  margin-right: -1px;
+}

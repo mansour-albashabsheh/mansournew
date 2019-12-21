@@ -1,0 +1,76 @@
+@import url("main.css");
+
+body{
+    background-color: #153B5C;
+    }
+    .pdca-items li{
+        background-color: #153B5C;
+    }
+
+    .social-networks li a{ color: rgb(21,59,92,0.5);border: 1px solid rgb(21,59,92,0.5);}
+    .social-networks li .login {
+        border-radius: 10px !important;
+        width: initial;
+        height: initial;
+        border: 2px solid rgb(21,59,92,0.5);
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        box-shadow: 1px 1px 12px rgb(21,59,92,0.5);
+    }
+
+    #rightside a{background-color: rgb(21,59,92,0.5);
+    }
+    
+    .social-networks li .login:hover {
+        background-color: rgb(21,59,92,0.8);
+        color: #fff;
+    }
+
+    .tools li:not(:last-child){
+        border-left: 2px solid #DDD;
+    }
+
+    .tools li a {
+        padding: 4px 5px;
+        display: block;
+        color: rgb(21,59,92,0.8);
+        font-size: 16px;
+    }
+
+    .searchButton {
+        width: 40px;
+        height: 36px;
+        border: 1px solid rgba(241, 241, 241, 0.55);
+        background: rgb(21,59,92,0.5);
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .carousel-indicators li {
+        background-color: rgb(21,59,92,0.5)!important;
+        cursor: pointer;
+    }
+
+    .carousel-indicators .active {
+        background-color: rgb(21,59,92,0.8) !important;
+    }
+
+    #rightside a:hover {
+        right: 0;
+        background-color:rgb(21,59,92,0.8);
+    }
+
+    .accessibility-tool img {
+        content:url("../images/option-icon-theme.png");
+      }
+
+
+      .dropdown-content{
+          background-color: rgb(21,59,92,0.5);
+      }
+      #access-content::after {
+        border-bottom: 10px solid rgb(21,59,92,0.5);
+    }
