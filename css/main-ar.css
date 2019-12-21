@@ -260,7 +260,6 @@ footer.img-white{
   background-image: url(../images/demo/page-background.svg);
   background-repeat: no-repeat;
   background-position: top center;
-  background-attachment: fixed;
   padding: 70px 0;
   background-size: cover;
 }
